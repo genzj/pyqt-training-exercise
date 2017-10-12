@@ -5,6 +5,7 @@ from PyQt5.QtWidgets import QApplication
 from PyQt5.uic import loadUiType
 from arraytablemodel import ArrayTableModel
 # from betterarraytablemodel import ArrayTableModel
+# from sqlitemodel import get_sql_model
 
 
 _ui_cls, _base = loadUiType('tableview.ui')
@@ -26,6 +27,7 @@ class MainDialog(_base):
         self.ui = _ui_cls()
         self.ui.setupUi(self)
         model = ArrayTableModel(data)
+        # model = get_sql_model()
         self.ui.tableView.setModel(model)
 
 
