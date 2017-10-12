@@ -19,3 +19,16 @@ def get_sql_model():
     # model.setHeaderData(1, QtCore.Qt.Horizontal, "First name")
     # model.setHeaderData(2, QtCore.Qt.Horizontal, "Last name")
     return model
+
+def query_sql_model(q):
+    db = QtSql.QSqlDatabase('QSQLITE')
+    db.setDatabaseName('db/chinook.db')
+    db.open()
+
+    model = QtSql.QSqlQueryModel()
+    model.setQuery(q, db)
+
+    # model.setHeaderData(0, QtCore.Qt.Horizontal, "ID")
+    # model.setHeaderData(1, QtCore.Qt.Horizontal, "First name")
+    # model.setHeaderData(2, QtCore.Qt.Horizontal, "Last name")
+    return model
