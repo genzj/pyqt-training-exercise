@@ -43,14 +43,14 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="checkBox_5">
+        <widget class="QCheckBox" name="checkBox_4">
          <property name="text">
           <string>Green</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="checkBox_4">
+        <widget class="QCheckBox" name="checkBox_5">
          <property name="text">
           <string>Transparent</string>
          </property>
@@ -67,12 +67,6 @@
       <layout class="QFormLayout" name="formLayout">
        <item row="0" column="0">
         <widget class="QLabel" name="label">
-         <property name="autoFillBackground">
-          <bool>false</bool>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">QLabel { background-color : yellow; }</string>
-         </property>
          <property name="text">
           <string>Label1</string>
          </property>
@@ -80,9 +74,6 @@
        </item>
        <item row="1" column="0">
         <widget class="QLabel" name="label_2">
-         <property name="styleSheet">
-          <string notr="true">QLabel { background-color : red; }</string>
-         </property>
          <property name="text">
           <string>Label2</string>
          </property>
@@ -96,42 +87,10 @@
         </widget>
        </item>
        <item row="0" column="1">
-        <widget class="QComboBox" name="comboBox">
-         <item>
-          <property name="text">
-           <string>Yellow</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Red</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Blue</string>
-          </property>
-         </item>
-        </widget>
+        <widget class="QComboBox" name="comboBox"/>
        </item>
        <item row="1" column="1">
-        <widget class="QComboBox" name="comboBox_2">
-         <item>
-          <property name="text">
-           <string>Yellow</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Red</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Blue</string>
-          </property>
-         </item>
-        </widget>
+        <widget class="QComboBox" name="comboBox_2"/>
        </item>
        <item row="2" column="1">
         <widget class="QComboBox" name="comboBox_3"/>
