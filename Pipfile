@@ -10,6 +10,10 @@ pyqt5 = "*"
 matplotlib = "*"
 numpy = "*"
 pandas = "*"
+pyqt5-tools = "~=5.11"
 
 [requires]
-python_version = "3.6"
+python_version = "3"
+
+[pipenv]
+allow_prereleases = true
